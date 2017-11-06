@@ -28,12 +28,13 @@ public class Main {
     ArrayList<Map.Entry<String, Integer>> entrylist = new ArrayList<>(size);
 
     // 5. store the map's entries in it (these are of type Map.Entry<String, Integer>
-    for (Map.Entry<String, Integer> entry: map.entrySet()) {
+    for (Map.Entry<String, Integer> entry : map.entrySet()) {
       entrylist.add(entry);
     }
 
     // 6. sort the ArrayList in descending order by count
-    //    using Collections.sort and an instance of the provided comparator (after fixing the latter)
+    //    using Collections.sort and an instance of the provided comparator (after fixing the
+    // latter)
     Collections.sort(entrylist, new DescendingByCount());
 
     // 7. print the (up to) ten most frequent words in the text

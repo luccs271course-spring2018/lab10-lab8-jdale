@@ -15,7 +15,6 @@ public class WordCounter {
 
     // finished
     this.theMap = theMap;
-
   }
 
   /** Counts the frequencies of all words in the given iterator. */
@@ -35,7 +34,6 @@ public class WordCounter {
 
     // finished
     return theMap.getOrDefault(word, 0);
-
   }
 
   /** Retrieve the map representing all word frequencies. */
