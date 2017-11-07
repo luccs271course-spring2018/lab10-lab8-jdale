@@ -15,7 +15,7 @@ public class Main {
       count++;
       map.put(next, count);
     }
-    // TODO complete this main program
+    // finish complete this main program
     // 1. create a WordCounter instance
     WordCounter wordCounter = new WordCounter(map);
 

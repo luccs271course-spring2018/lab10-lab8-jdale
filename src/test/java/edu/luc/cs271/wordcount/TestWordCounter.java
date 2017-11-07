@@ -15,27 +15,27 @@ public class TestWordCounter {
 
   @Before
   public void setUp() {
-    // TODO create the SUT instance
+    // finish create the SUT instance
     wcounter = new WordCounter(new HashMap<>());
   }
 
   @After
   public void tearDown() {
-    // TODO set the SUT instance to null
+    // finish set the SUT instance to null
     wcounter = null;
   }
 
   @Test
   public void testGetCountEmpty() {
 
-    // TODO verify that the SUT initially returns an empty map
+    // finish verify that the SUT initially returns an empty map
     assertTrue(wcounter.getCounts().isEmpty());
   }
 
   @Test
   public void testGetCountNonEmpty() {
 
-    // TODO run the SUT on a specific String iterator with some repeated words,
+    // finish run the SUT on a specific String iterator with some repeated words,
     // then use assertions to verify the correct counts
     // do this for at least two words in the iterator and two not in the iterator
     wcounter.countWords(
